@@ -1,1 +1,45 @@
 @import "tailwindcss";
+@plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-clr: #d91b7e;
+    --secondary-clr: #fbcfe8;
+    --brand-gradient:linear-gradient(
+        
+    );
+}
+.brand-gradient{
+    color: #d81b7e;
+}
+@media (min-width: 1024px) {
+    
+.brand-gradient{
+    background-image :linear-gradient(
+        to right,
+        #ff5722,
+        #d81b7e,
+        #7c3aed
+    ) ;  
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+}
+
+
+body{
+    font-family: "Plus Jakarta Sans",sans-serif;
+    background-color: #FFFFFF;
+}
+html,
+body,
+#root {
+    min-height: 100%;
+}
+
+@media (max-width: 1023px){
+    body{
+        background-color: #FBFBFC  ;
+    }
+}

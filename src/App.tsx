@@ -4,6 +4,7 @@ import Nav from "./components/Nav"
 import Technologies from "./components/technology/Technologies"
 import { ToastContainer } from "react-toastify"
 import type { Itech } from "./components/types/TechType"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <ToastContainer
               autoClose={3000} />
           </Suspense>
+          <Footer/>
     </>
   )
 }
