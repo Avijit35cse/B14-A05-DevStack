@@ -25,7 +25,7 @@ const Stack = ({ technologies , setSelectedTechnology }: IstackProps) => {
                         <img className="w-8" src={technology.icon} alt={technology.name} />
                         <div className="flex gap-4 justify-between items-center w-full">
                             <div>
-                                <h3 className="text-[10px] font-semibold">{technology.name}</h3>
+                                <h3 className="text-[10px] font-semibold text-[#192136]">{technology.name}</h3>
                                 <p className="text-[10px] text-[#64748b]">{technology.category}</p>
                             </div>
                             <RxCross2 className="text-[#37373D]" onClick={()=>{handleCross(technology.id)
