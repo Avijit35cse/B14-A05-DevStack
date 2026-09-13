@@ -44,7 +44,7 @@ const TechCards = ({ technologies, selectedTechnology, setSelectedTechnology }: 
                             <p className="justify-self-center text-[#64748b] text-[10px]  font-normal py-1.5">{technology.difficulty}</p>
                             <span className="flex gap-1 justify-self-end items-center whitespace-nowrap text-center">
                                 <FaStar className="text-[#FBBF24] w-2.5" />
-                                <p className="text-center text-[11px] font-semibold leading-[16.5px]">{technology.rating}</p>
+                                <p className="text-center text-[#475569] text-[11px] font-semibold leading-[16.5px]">{technology.rating}</p>
                             </span>
                         </div >
                         <button

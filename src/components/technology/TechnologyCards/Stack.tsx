@@ -12,7 +12,7 @@ const Stack = ({ technologies , setSelectedTechnology }: IstackProps) => {
     return (
         <div className="px-5 sm:px-0">
             <div className="border border-gray-300 rounded-xl p-5 bg-[#FFFFFF]">
-                <h2 className="text-[16px] font-bold leading-6 p-1">Your Stack</h2>
+                <h2 className="text-[16px] font-bold leading-6 p-1 text-[#0F172A]">Your Stack</h2>
                 <p className="text-[12px] font-jakarta leading-1 text-[#64748b] mb-2 p-1">{technologies.length > 0 ? `${technologies.length} Technology Selected` : `No technologies selected yet`}</p>
                 {technologies.length === 0 && (
                     <div className="flex justify-center py-2 w-full">

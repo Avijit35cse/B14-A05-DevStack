@@ -11,7 +11,7 @@ const Footer = () => {
                         <img className="mx-auto lg:mx-0" src={footerLogo} alt="footerLogo" />
                         <p className="text-[12px] text-[#64748b] font-normal py-4 max-w-75 text-center lg:text-left mx-auto lg:mx-0">Curated tools, technologies, and resources for developers building
                             modern software.</p>
-                        <div className="flex gap-4 justify-center lg:justify-start text-[12px] font-semibold">
+                        <div className="flex gap-4 justify-center lg:justify-start text-[12px] text-[#0F172A] font-semibold">
                             <a href="#">GitHub</a>
                             <a href="#">Twitter</a>
                             <a href="#">LinkedIn</a>
