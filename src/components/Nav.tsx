@@ -17,7 +17,7 @@ const Nav = () => {
                      <a className={aClass} href="#">About</a>
                      <a className={aClass} href="#">Contact</a>
                  </div>
-                 <img className="lg:hidden mx-auto items-center w-30.5" src={Logo} alt="logo" />
+                 <img className="lg:hidden mx-auto items-center w-30.5 text-[#37373D]" src={Logo} alt="logo" />
                  <div className="flex gap-1.5 items-center text-[12px] sm:text-[14px] text-[#334155] leading-5 font-medium">
                      <button className="whitespace-nowrap">Sign In</button>
                      <button className="btn rounded-3xl bg-(--primary-clr) text-[#FFFFFF] text-[12px] sm:text-[14px] font-semibold px-3 sm:px-5 py-2">Sign Up</button>

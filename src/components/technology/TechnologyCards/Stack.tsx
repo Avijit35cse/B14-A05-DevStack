@@ -28,7 +28,7 @@ const Stack = ({ technologies , setSelectedTechnology }: IstackProps) => {
                                 <h3 className="text-[10px] font-semibold">{technology.name}</h3>
                                 <p className="text-[10px] text-[#64748b]">{technology.category}</p>
                             </div>
-                            <RxCross2 onClick={()=>{handleCross(technology.id)
+                            <RxCross2 className="text-[#37373D]" onClick={()=>{handleCross(technology.id)
                                 toast.error(`${technology.name} removed from your stack !`)
                             }}/>
                         </div>
