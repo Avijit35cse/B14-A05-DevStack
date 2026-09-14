@@ -42,9 +42,9 @@ const TechCards = ({ technologies, selectedTechnology, setSelectedTechnology }: 
                         <div className="grid grid-cols-[1fr_auto_1fr] items-center mb-4 py-3 border-t border-t-gray-100">
                             <p className="justify-self-start text-[#475569] text-[11px]  font-medium font-jakarta px-2 py-0.5 rounded-xl bg-[#f4f7fa] whitespace-nowrap">{technology.category}</p>
                             <p className="justify-self-center text-[#64748b] text-[10px]  font-normal py-1.5">{technology.difficulty}</p>
-                            <span className="flex gap-1 justify-self-end items-center whitespace-nowrap text-center">
-                                <FaStar className="text-[#FBBF24] w-2.5" />
-                                <p className="text-center text-[#475569] text-[11px] font-semibold leading-[16.5px]">{technology.rating}</p>
+                            <span className="flex gap-1 justify-self-end items-center whitespace-nowrap">
+                                <FaStar className="text-[#FBBF24] w-2.5 h-2.5 shrink-0 relative -top-px" />
+                                <span className="text-[#475569] text-[11px] font-semibold leading-[16.5px]">{technology.rating}</span>
                             </span>
                         </div >
                         <button
